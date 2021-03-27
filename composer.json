@@ -1,0 +1,24 @@
+{
+    "name": "cgh/laravel-shop",
+    "description": "packagelist",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GengHong",
+            "email": "792184927@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+
+            "Package\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+
+
+    }
+}
